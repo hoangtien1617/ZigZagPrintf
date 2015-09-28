@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29965B411BB8D60900571859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29965B401BB8D60900571859 /* main.m */; };
+		29965B441BB8D60900571859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29965B431BB8D60900571859 /* AppDelegate.m */; };
+		29965B471BB8D60900571859 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29965B461BB8D60900571859 /* ViewController.m */; };
+		29965B4A1BB8D60900571859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29965B481BB8D60900571859 /* Main.storyboard */; };
+		29965B4C1BB8D60900571859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29965B4B1BB8D60900571859 /* Assets.xcassets */; };
+		29965B4F1BB8D60900571859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29965B4D1BB8D60900571859 /* LaunchScreen.storyboard */; };
+		29965B5A1BB8D60900571859 /* ZigZagPrintfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29965B591BB8D60900571859 /* ZigZagPrintfTests.m */; };
+		29965B651BB8D60900571859 /* ZigZagPrintfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29965B641BB8D60900571859 /* ZigZagPrintfUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29965B561BB8D60900571859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29965B341BB8D60900571859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29965B3B1BB8D60900571859;
+			remoteInfo = ZigZagPrintf;
+		};
+		29965B611BB8D60900571859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29965B341BB8D60900571859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29965B3B1BB8D60900571859;
+			remoteInfo = ZigZagPrintf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29965B3C1BB8D60900571859 /* ZigZagPrintf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZigZagPrintf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29965B401BB8D60900571859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29965B421BB8D60900571859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29965B431BB8D60900571859 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29965B451BB8D60900571859 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29965B461BB8D60900571859 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29965B491BB8D60900571859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29965B4B1BB8D60900571859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29965B4E1BB8D60900571859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29965B501BB8D60900571859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29965B551BB8D60900571859 /* ZigZagPrintfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZigZagPrintfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29965B591BB8D60900571859 /* ZigZagPrintfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZigZagPrintfTests.m; sourceTree = "<group>"; };
+		29965B5B1BB8D60900571859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29965B601BB8D60900571859 /* ZigZagPrintfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZigZagPrintfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29965B641BB8D60900571859 /* ZigZagPrintfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZigZagPrintfUITests.m; sourceTree = "<group>"; };
+		29965B661BB8D60900571859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29965B391BB8D60900571859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29965B521BB8D60900571859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29965B5D1BB8D60900571859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29965B331BB8D60900571859 = {
+			isa = PBXGroup;
+			children = (
+				29965B3E1BB8D60900571859 /* ZigZagPrintf */,
+				29965B581BB8D60900571859 /* ZigZagPrintfTests */,
+				29965B631BB8D60900571859 /* ZigZagPrintfUITests */,
+				29965B3D1BB8D60900571859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29965B3D1BB8D60900571859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29965B3C1BB8D60900571859 /* ZigZagPrintf.app */,
+				29965B551BB8D60900571859 /* ZigZagPrintfTests.xctest */,
+				29965B601BB8D60900571859 /* ZigZagPrintfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29965B3E1BB8D60900571859 /* ZigZagPrintf */ = {
+			isa = PBXGroup;
+			children = (
+				29965B421BB8D60900571859 /* AppDelegate.h */,
+				29965B431BB8D60900571859 /* AppDelegate.m */,
+				29965B451BB8D60900571859 /* ViewController.h */,
+				29965B461BB8D60900571859 /* ViewController.m */,
+				29965B481BB8D60900571859 /* Main.storyboard */,
+				29965B4B1BB8D60900571859 /* Assets.xcassets */,
+				29965B4D1BB8D60900571859 /* LaunchScreen.storyboard */,
+				29965B501BB8D60900571859 /* Info.plist */,
+				29965B3F1BB8D60900571859 /* Supporting Files */,
+			);
+			path = ZigZagPrintf;
+			sourceTree = "<group>";
+		};
+		29965B3F1BB8D60900571859 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29965B401BB8D60900571859 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29965B581BB8D60900571859 /* ZigZagPrintfTests */ = {
+			isa = PBXGroup;
+			children = (
+				29965B591BB8D60900571859 /* ZigZagPrintfTests.m */,
+				29965B5B1BB8D60900571859 /* Info.plist */,
+			);
+			path = ZigZagPrintfTests;
+			sourceTree = "<group>";
+		};
+		29965B631BB8D60900571859 /* ZigZagPrintfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29965B641BB8D60900571859 /* ZigZagPrintfUITests.m */,
+				29965B661BB8D60900571859 /* Info.plist */,
+			);
+			path = ZigZagPrintfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29965B3B1BB8D60900571859 /* ZigZagPrintf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29965B691BB8D60900571859 /* Build configuration list for PBXNativeTarget "ZigZagPrintf" */;
+			buildPhases = (
+				29965B381BB8D60900571859 /* Sources */,
+				29965B391BB8D60900571859 /* Frameworks */,
+				29965B3A1BB8D60900571859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZigZagPrintf;
+			productName = ZigZagPrintf;
+			productReference = 29965B3C1BB8D60900571859 /* ZigZagPrintf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29965B541BB8D60900571859 /* ZigZagPrintfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29965B6C1BB8D60900571859 /* Build configuration list for PBXNativeTarget "ZigZagPrintfTests" */;
+			buildPhases = (
+				29965B511BB8D60900571859 /* Sources */,
+				29965B521BB8D60900571859 /* Frameworks */,
+				29965B531BB8D60900571859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29965B571BB8D60900571859 /* PBXTargetDependency */,
+			);
+			name = ZigZagPrintfTests;
+			productName = ZigZagPrintfTests;
+			productReference = 29965B551BB8D60900571859 /* ZigZagPrintfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29965B5F1BB8D60900571859 /* ZigZagPrintfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29965B6F1BB8D60900571859 /* Build configuration list for PBXNativeTarget "ZigZagPrintfUITests" */;
+			buildPhases = (
+				29965B5C1BB8D60900571859 /* Sources */,
+				29965B5D1BB8D60900571859 /* Frameworks */,
+				29965B5E1BB8D60900571859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29965B621BB8D60900571859 /* PBXTargetDependency */,
+			);
+			name = ZigZagPrintfUITests;
+			productName = ZigZagPrintfUITests;
+			productReference = 29965B601BB8D60900571859 /* ZigZagPrintfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29965B341BB8D60900571859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hoàng Tiến";
+				TargetAttributes = {
+					29965B3B1BB8D60900571859 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 7R8ZB7V7RS;
+					};
+					29965B541BB8D60900571859 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 29965B3B1BB8D60900571859;
+					};
+					29965B5F1BB8D60900571859 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 29965B3B1BB8D60900571859;
+					};
+				};
+			};
+			buildConfigurationList = 29965B371BB8D60900571859 /* Build configuration list for PBXProject "ZigZagPrintf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29965B331BB8D60900571859;
+			productRefGroup = 29965B3D1BB8D60900571859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29965B3B1BB8D60900571859 /* ZigZagPrintf */,
+				29965B541BB8D60900571859 /* ZigZagPrintfTests */,
+				29965B5F1BB8D60900571859 /* ZigZagPrintfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29965B3A1BB8D60900571859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29965B4F1BB8D60900571859 /* LaunchScreen.storyboard in Resources */,
+				29965B4C1BB8D60900571859 /* Assets.xcassets in Resources */,
+				29965B4A1BB8D60900571859 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29965B531BB8D60900571859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29965B5E1BB8D60900571859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29965B381BB8D60900571859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29965B471BB8D60900571859 /* ViewController.m in Sources */,
+				29965B441BB8D60900571859 /* AppDelegate.m in Sources */,
+				29965B411BB8D60900571859 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29965B511BB8D60900571859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29965B5A1BB8D60900571859 /* ZigZagPrintfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29965B5C1BB8D60900571859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29965B651BB8D60900571859 /* ZigZagPrintfUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29965B571BB8D60900571859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29965B3B1BB8D60900571859 /* ZigZagPrintf */;
+			targetProxy = 29965B561BB8D60900571859 /* PBXContainerItemProxy */;
+		};
+		29965B621BB8D60900571859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29965B3B1BB8D60900571859 /* ZigZagPrintf */;
+			targetProxy = 29965B611BB8D60900571859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29965B481BB8D60900571859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29965B491BB8D60900571859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29965B4D1BB8D60900571859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29965B4E1BB8D60900571859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29965B671BB8D60900571859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29965B681BB8D60900571859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29965B6A1BB8D60900571859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZigZagPrintf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HT.ZigZagPrintf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		29965B6B1BB8D60900571859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZigZagPrintf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HT.ZigZagPrintf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		29965B6D1BB8D60900571859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZigZagPrintfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HT.ZigZagPrintfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZigZagPrintf.app/ZigZagPrintf";
+			};
+			name = Debug;
+		};
+		29965B6E1BB8D60900571859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZigZagPrintfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HT.ZigZagPrintfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZigZagPrintf.app/ZigZagPrintf";
+			};
+			name = Release;
+		};
+		29965B701BB8D60900571859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZigZagPrintfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HT.ZigZagPrintfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZigZagPrintf;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		29965B711BB8D60900571859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZigZagPrintfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HT.ZigZagPrintfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZigZagPrintf;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29965B371BB8D60900571859 /* Build configuration list for PBXProject "ZigZagPrintf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29965B671BB8D60900571859 /* Debug */,
+				29965B681BB8D60900571859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29965B691BB8D60900571859 /* Build configuration list for PBXNativeTarget "ZigZagPrintf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29965B6A1BB8D60900571859 /* Debug */,
+				29965B6B1BB8D60900571859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29965B6C1BB8D60900571859 /* Build configuration list for PBXNativeTarget "ZigZagPrintfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29965B6D1BB8D60900571859 /* Debug */,
+				29965B6E1BB8D60900571859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29965B6F1BB8D60900571859 /* Build configuration list for PBXNativeTarget "ZigZagPrintfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29965B701BB8D60900571859 /* Debug */,
+				29965B711BB8D60900571859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29965B341BB8D60900571859 /* Project object */;
+}
